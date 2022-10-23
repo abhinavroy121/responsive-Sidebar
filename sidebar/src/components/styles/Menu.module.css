@@ -1,0 +1,192 @@
+
+
+/* /// sidebar css for large screen ----------------------- */
+
+.sidebarmaindiv {
+    width: 25rem;
+    background-color: #253245;
+    padding: 10px;
+    
+  }
+  .sidetopdivhere{
+    width:25px;
+    height: 25px;
+     padding: 20px;
+     background-color: lightgrey;
+     margin:auto;
+     margin-top: 10px;
+     border-radius: 50%;
+  }
+
+  .sidetopdivhere img{
+   width: 35px;
+   transform : rotate(-25deg)
+  }
+  
+
+  /* /// hamburger css */
+
+  #toggleinvisible{
+    position:absolute;
+    top:2rem;
+  left:22rem;
+    display:none;
+    flex-direction: column;
+    justify-content:space-between;
+    width:30px;
+    height:25px;
+    padding:5px;
+ background-color:#304057;
+ border-radius: 3px;
+}
+
+.hamburgertoggle{
+    height:3px;
+    width:100%;
+    background-color:  #ec008c;
+    padding:1px;
+    border-radius: 10px;
+    
+}
+
+  /* //////////////////////////////// */
+  .sidetop2div {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: auto;
+    margin-top:10px;
+  }
+  .buttonandquestion{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    /* border:1px solid red; */
+  
+  }
+  .sidetopbutton {
+ margin:auto;
+    margin-top: 10px;
+    background-color: #ec008c;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  #secondquestionmark {
+    margin:auto;
+    margin-top: 10px;
+
+  }
+  .menuspan {
+    display: flex;
+   align-items: center;
+   height:30px;
+    color: #838f9a;
+    gap: 15px;
+    padding: 7px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+  
+  }
+  .menuspan:hover {
+    background-color: #ec008c;
+    color: white;
+  }
+  #rightarrow {
+   margin-left: auto;
+  }
+  .iconcomponents {
+    margin-left: 20px;
+  }
+  .iconpara {
+    margin-top: -6px;
+  }
+  
+
+   /* /// media query for medium screen  -------------------------------------*/
+
+   @media screen and (min-width: 568px) and (max-width: 950px) {
+
+     /* /// hamburger css */
+
+  #togglebutton{
+    position:absolute;
+    top:2rem;
+  left:2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width:30px;
+    height:25px;
+    padding:5px;
+ background-color:#304057;
+ border-radius: 3px;
+}
+
+.hamburgertoggle{
+    height:3px;
+    width:100%;
+    background-color:  #ec008c;
+    padding:1px;
+    border-radius: 10px;
+    
+}
+
+/* //// */
+
+.sidebarmaindiv {
+    display:none;
+    width: 40rem;
+    background-color: #253245;
+    padding: 10px;
+    margin:auto;
+  }
+     
+  }
+  /* ======================================= */
+
+
+  /* // media query for small screens ==================================== */
+
+
+  
+  @media screen  and (max-width: 567px) {
+
+    /* /// hamburger css */
+  
+ #togglebutton{
+   position:absolute;
+   top:2rem;
+   left:2rem;
+   display:flex;
+   flex-direction: column;
+   justify-content:space-between;
+   width:30px;
+   height:25px;
+   padding:5px;
+ background-color:#304057;
+border-radius: 3px;
+}
+
+.hamburgertoggle{
+   height:3px;
+   width:100%;
+   background-color:  #ec008c;
+   padding:1px;
+   border-radius: 10px;
+   
+}
+
+/* //// */
+
+.sidebarmaindiv {
+   display:none;
+   width: 25rem;
+   background-color: #253245;
+   padding: 10px;
+ }
+    
+ }
