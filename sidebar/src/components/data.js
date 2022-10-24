@@ -1,9 +1,10 @@
-import { FiSettings, FiPower } from "react-icons/fi";
 import { AiFillQuestionCircle } from "react-icons/ai";
-import { MdDashboard,MdGridOn,MdTimer,MdOutlineGroupAdd,MdPlaylistAdd,MdArchive,MdMiscellaneousServices } from "react-icons/md";
-import { FaUserFriends,FaDollarSign ,FaKey,FaUser} from "react-icons/fa";
+import { MdDashboard,MdGridOn,MdTimer,MdOutlineGroupAdd,MdPlaylistAdd,MdArchive } from "react-icons/md";
+import { FaUserFriends,FaDollarSign } from "react-icons/fa";
 import { RiRidingLine,RiAlertFill } from "react-icons/ri";
-import { BsGrid3X3GapFill,BsChevronRight } from "react-icons/bs";
+import { BsChevronRight } from "react-icons/bs";
+
+//  importing react icons for each icons
 
  let dataArr = [
     {lefticon: <MdDashboard/> , title: "Dashboard"},
