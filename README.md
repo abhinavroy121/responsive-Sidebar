@@ -14,3 +14,5 @@
 - Javascript
 - Github
 
+
+## Netlify Deployed link :- https://peppy-granita-250ba6.netlify.app/
